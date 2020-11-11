@@ -1,2 +1,2 @@
-# -D3-2020-introductiongithub
+# D3-2020-introductiongithub
 GitHub intro
