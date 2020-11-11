@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Staatliches&family=Vampiro+One&display=swap');
+
+/* ########################## GENERAL ########################## */
+
+body{
+  font-family: "Vampiro One", serif, sans-serif;
+}
+
+h1{
+  font-family: "Cinzel", serif, sans-serif;
+  color: white;
+  font-size: 7em;
+}
+
+h2, h3{
+  font-family: "Staatliches", serif, sans-serif;
+  font-size: 4em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3{
+  font-size: 2em;
+}
+
+nav p{
+  font-family: "Staatliches", serif, sans-serif;
+  text-decoration: underline;
+  font-size: 3em;
+}
+
+/* ########################## CONTENU ########################## */
+
+.inner-content p{
+  text-align: justify;
+  font-size: 17px
+}
+
+li {
+  font-size: 22px;
+}
+
+li a:hover{
+  color: black;
+  background-color: yellow;
+  text-transform: uppercase;
+}
+
+/* ########################## MORE ########################## */
+
+
+.more_button{
+  font-family: "Staatliches", serif, sans-serif;
+  font-size: 5em;
+  font-size: 2em;
+}
+
+.Cookies-text, .Cookies-action{
+  font-family: "Staatliches", serif, sans-serif;
+}
+
+.Cookies-action{
+  font-size: 1.2em;
+}
+
+.Cookies-text{
+  font-size: 2em;
+}
