@@ -1,0 +1,218 @@
+/* ########################## GENERAL ########################## */
+
+body, header, footer, nav, ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header, footer{
+  height: 150px;
+  background-color: rgb(254, 163, 71);
+  width: 100vw;
+}
+
+
+
+nav{
+  background-color: beige;
+  width: 100vw;
+  min-height: 15em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+nav p, footer p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li{
+  margin: 0.5em;
+}
+
+h2{
+ padding-bottom: 0.5em;
+}
+
+section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4.5em;
+  padding-bottom: 4.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+
+}
+
+body{
+  overflow-y: hidden;   /* bug a fix */
+}
+
+a:visited{
+  color: black;
+}
+
+/* ########################## CONTENU ########################## */
+
+
+
+.inner-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  max-width: 50vw;
+  min-width: 350px;
+  background-color: rgba(225, 206, 154, 0.7);
+  padding: 3em;
+  padding-bottom: 3.5em; /* Compensation optique */
+}
+
+.container-01{
+  background-image: url("https://thumbs.dreamstime.com/z/lion-mouse-aesop-fairy-fable-tale-illustration-cartoon-vector-jungle-background-158457126.jpg");
+}
+
+.container-02{
+  background-image: url("https://cdn.dribbble.com/users/3577042/screenshots/10687947/media/4980adbe80058b34f3ce938c01e2b84e.jpg");
+}
+
+.container-03{
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/020/574/069/large/valentina-levina-02goat2last.jpg?1568304564");
+}
+
+/* ########################## MORE ########################## */
+
+.container-04{
+  background-image: url("https://c8.alamy.com/compfr/2apacy3/aesop-c-620-564-av-j-c-conteur-grec-gravure-basee-sur-un-buste-grec-ancien-dans-la-villa-albani-rome-2apacy3.jpg");
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 2rem;
+}
+
+.container-04 h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(225, 206, 154, 0.7);
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.grid .inner-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  min-width: inherit;
+  max-height: 400px;
+  padding: 20px;
+}
+
+h3{
+ padding-bottom: 10px;
+}
+
+.grid .inner-content p{
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px; /* font cursive coupé */
+}
+
+.more_button {
+  width: 50%;
+  margin-top: 17px;
+  border: 4px solid rgb(254, 163, 71);
+  border-radius: 6px;
+}
+
+.more_button p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* ########################## COOKIES ########################## */
+
+:root {
+  box-sizing: border-box;
+  background: #e7efc9;
+  font-size: 16px;
+  line-height: 1.3;
+  font-family: sans-serif;
+  color: #000;
+}
+
+button {
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+
+.Cookies {
+  position: fixed;
+  bottom: 2vw;
+  max-width: 800px;
+  width: 80%;
+  height: 4em;
+  background-color: beige;
+  border: 4px solid #fea347;
+}
+
+.Cookies-inner {
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Cookies-action {
+  padding: .3em .5em;
+  border: 4px solid rgb(254, 163, 71);
+  border-radius: 6px;
+  text-decoration: none;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.Cookies-action:hover,
+.Cookies-action:focus {
+  outline: none;
+  background: #fea347;
+}
+
+.btn-btn-black-cookies-custom-button{
+  text-decoration: none;
+  color: black;
+}
+
+.Cookies-action:active {
+  background: #fea347;
+}
+
+svg{
+  width: 50px;
+}
